@@ -3,7 +3,6 @@ import Link from "next/link";
 import { JSX, SVGProps, useEffect, useState, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { TypewriterEffect } from "../components/typewriterEffect";
-import Image from "next/image";
 
 const words = [
   {
