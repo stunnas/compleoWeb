@@ -25,7 +25,7 @@ export default function About() {
   return (
     <>
         <div className="flex flex-col space-y-24 w-full">
-          <div className="flex flex-col space-y-12 shadow-custom-glow rounded-lg shadow mt-4 p-4 overflow bg-[url('/images/founders.gif')] bg-cover">
+          <div className="flex flex-col space-y-12 shadow-custom-glow rounded-lg mt-4 p-4 overflow bg-[url('/images/founders.gif')] bg-cover">
             <CollabTooltip items={people}/>
             <div className="flex flex-col bg-white justify-center items-center rounded-xl border-2 border-black">
               <div className="my-12 w-4/5">
