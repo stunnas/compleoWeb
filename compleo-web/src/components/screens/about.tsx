@@ -38,7 +38,7 @@ export default function About() {
                   <div className="text-center">
                     <SmartphoneIcon className="text-blue-500 w-12 h-12 mx-auto" />
                     <h4 className="font-semibold mt-2">Innovation</h4>
-                    <p className="text-sm text-gray-500">Pushing the boundaries of what's possible.</p>
+                    <p className="text-sm text-gray-500">Pushing the boundaries of what&apos;s possible.</p>
                   </div>
                   <div className="text-center">
                     <GroupIcon className="text-blue-500 w-12 h-12 mx-auto" />

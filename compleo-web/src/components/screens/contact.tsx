@@ -8,7 +8,7 @@ export default function ContactForm() {
           <div className="space-y-2">
             <h1 className="text-3xl text-white font-bold">Contact Us</h1>
             <p className="text-white/80">
-              We're here to help. Fill out the form below and we'll get back to you as soon as possible.
+              We&apos;re here to help. Fill out the form below and we&apos;ll get back to you as soon as possible.
             </p>
           </div>
           <div className="space-y-4 flex flex-col">

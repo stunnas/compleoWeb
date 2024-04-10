@@ -3,6 +3,7 @@ import Link from "next/link";
 import { JSX, SVGProps, useEffect, useState, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { TypewriterEffect } from "../components/typewriterEffect";
+import Image from "next/image";
 
 const words = [
   {
@@ -107,7 +108,7 @@ export default function Hero() {
           </div>
         </div>
         <motion.div initial={{scale: 1}} animate={controls} className="hidden lg:block lg:w-1/2 justify-center items-start ">
-          <img src="/images/compleo-preview.png" alt="compleo iphone preview" className="mx-auto h-auto max-w-lg object-cover phone-image"/>
+          <Image src="/images/compleo-preview.png" alt="compleo iphone preview" className="mx-auto h-auto max-w-lg object-cover phone-image"/>
         </motion.div>
 
       </div>
