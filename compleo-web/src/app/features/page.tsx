@@ -62,7 +62,7 @@ export default function Features() {
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl">AI-Powered Productivity</h1>
                   <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                     Experience the future of productivity with our AI-powered app. From intelligent task management to
-                    personalized recommendations, we've got you covered.
+                    personalized recommendations, we&apos;ve got you covered.
                   </p>
                 </div>
               </div>
