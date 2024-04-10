@@ -108,7 +108,7 @@ export default function Hero() {
           </div>
         </div>
         <motion.div initial={{scale: 1}} animate={controls} className="hidden lg:block lg:w-1/2 justify-center items-start ">
-          <Image src="/images/compleo-preview.png" alt="compleo iphone preview" className="mx-auto h-auto max-w-lg object-cover phone-image"/>
+          <img src="/images/compleo-preview.png" alt="compleo iphone preview" className="mx-auto h-auto max-w-lg object-cover phone-image"/>
         </motion.div>
 
       </div>
