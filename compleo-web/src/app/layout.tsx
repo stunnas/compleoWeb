@@ -15,8 +15,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning={true}>
-      <body className={inter.className} suppressHydrationWarning={true}>{children}</body>
+    <html
+      lang="en"
+      suppressHydrationWarning={true}
+    >
+      <body
+        className={inter.className}
+        suppressHydrationWarning={true}
+      >
+        {children}
+        <link
+          rel="icon"
+          href="/images/compleo.png"
+          sizes="any"
+        />
+      </body>
     </html>
   );
 }
